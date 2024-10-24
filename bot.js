@@ -3,7 +3,7 @@ const youtubedl = require('youtube-dl-exec')
 const { Telegraf } = require('telegraf')
 const mainMenu = require('./menus/main')
 
-const bot = new Telegraf(process.env.BOT_TOKEN)
+const bot = new Telegraf(process.env.7542750844:AAHy_rrWqETDZEqQJ5HVWlaKsEADCcfF3UE)
 
 bot.command('start', ctx => {
     ctx.replyWithMarkdown('Welcome to the Link Downloader bot !' +
